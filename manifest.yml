@@ -1,6 +1,6 @@
 applications:
-- name: moodle
+- name: webconf
   memory: 1024M
   instances: 1
-  host: moodle.mybluemix.net
+  domain: mybluemix.net
   buildpack: https://github.com/zendtech/zend-server-php-buildpack.git
