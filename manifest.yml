@@ -1,6 +1,7 @@
 applications:
 - name: webconf
-  memory: 1024M
+  memory: 512MB
   instances: 1
-  domain: mybluemix.net
-  buildpack: https://github.com/zendtech/zend-server-php-buildpack.git
+  host: webconf
+  path: .
+  buildpack: https://github.com/dmikusa-pivotal/cf-php-build-pack.git
